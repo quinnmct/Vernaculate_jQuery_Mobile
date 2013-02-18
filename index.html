@@ -22,12 +22,6 @@
 	        .my-breakpoint .ui-block-a{ 
 		        width: 10%; 
             }
-	        .main-breakpoint .ui-block-a{ 
-		        width: 30%; 
-            }
-            .main-breakpoint .ui-block-b{
-                width: 70%;
-            }
             .main-menu-text{
                 font-size:80%;
             }
@@ -51,24 +45,19 @@
         <!-- MAIN VIEW -->
         <div data-role="page" id="mainView">
             <div data-role="header">
-                <h1>Start Page</h1><a href="#mainView" data-icon="home" data-iconpos="notext" data-transition="slide">Home</a>
+                <h1>Vernaculate</h1><a href="#mainView" data-icon="home" data-iconpos="notext" 
+                                      data-transition="slide">Home</a>
             </div>
-             <h1> Vernaculate </h1>
-            <div data-role="content" class="ui-grid-a main-breakpoint">
-              <div class="ui-block-a">
-               
-                 I love Jessica Appeltofft !
-                <br/>
-                <img src="/jessy.jpg" width="80" height="auto">
-             </div>
-             <div class="ui-block-b"> 
+            <div data-role="content">
+                <img src="/LanguageAndCulture.jpg" width="300" height="auto"/>
+            </div>
+            <div> 
                 <ul data-role="listview" data-inset="true" id="mainList">
                     <li><a href="#translateView" class="main-menu-text">Translate!</a></li>
                     <li><a href="#setLangView" class="main-menu-text">Languages</a></li>
                     <li><a href="#settingsView" class="main-menu-text">Settings</a></li>
                     <li><a href="#aboutView" class="main-menu-text">About</a></li>
                 </ul>
-              </div>
             </div>
         </div>
                     
